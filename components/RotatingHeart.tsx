@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 import { Heart } from 'lucide-react';
 
 export default function RotatingHeart({ className = "", iconClassName = "" }: { className?: string, iconClassName?: string }) {
