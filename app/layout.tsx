@@ -23,6 +23,10 @@ export const metadata: Metadata = {
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en" className={`${inter.variable} ${poppins.variable}`}>
+      <head>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7856837734774136"
+     crossorigin="anonymous"></script>
+      </head>
       <body className="font-sans antialiased bg-background text-slate-900 min-h-[100dvh] flex flex-col" suppressHydrationWarning>
         <Navigation />
         <MainLayout>
