@@ -8,6 +8,7 @@
 
 > **Find My Date** is an AI-powered dating platform that uses **Google Gemini AI** to provide intelligent matchmaking and personalized conversation starters for meaningful connections.
 
+
 # 📖 Overview
 
 **Find My Date** is a modern AI-driven dating web application designed to move beyond traditional swipe-based systems and help users build **authentic and meaningful relationships**.
@@ -17,6 +18,7 @@ Built with **Next.js 15, React 19, and TypeScript**, the platform combines **mod
 Instead of focusing only on profile photos, the platform analyzes **user interests, personality traits, and relationship goals** to generate highly compatible matches. It also helps users start conversations using **AI-generated icebreakers**, removing the awkwardness of the first message.
 
 This project demonstrates how **AI can enhance real-world consumer applications** by improving user engagement, personalization, and interaction quality.
+
 
 # ✨ Key Features
 
@@ -49,6 +51,7 @@ This project demonstrates how **AI can enhance real-world consumer applications*
 * Optimized for **desktop, tablet, and mobile devices**
 * Provides a **native-app-like experience**
 
+
 # 🛠️ Tech Stack
 
 ### Frontend
@@ -69,6 +72,7 @@ This project demonstrates how **AI can enhance real-world consumer applications*
 ### Icons
 
 * **Lucide React**
+
 
 # 🚀 How to Run Locally
 
@@ -142,6 +146,7 @@ Open your browser and visit:
 http://localhost:3000
 ```
 
+
 # 📁 Project Structure
 
 ```
@@ -159,6 +164,7 @@ http://localhost:3000
 ```
 
 ---
+
 
 # 🤝 Contributing
 
