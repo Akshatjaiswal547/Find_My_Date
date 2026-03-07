@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { Settings, Edit3, Camera, MapPin, Briefcase, GraduationCap, Ruler, Wine, Dumbbell, Sparkles, CheckCircle2 } from 'lucide-react';
+import { Settings, Edit3, Camera, MapPin, Briefcase, GraduationCap, Ruler, Wine, Dumbbell, Sparkles, CheckCircle2, Mail, Linkedin } from 'lucide-react';
 
 export default function ProfilePage() {
   return (
@@ -107,6 +107,31 @@ export default function ProfilePage() {
               <Wine className="w-5 h-5 text-slate-400" />
               <span className="text-sm font-medium">Socially</span>
             </div>
+          </div>
+        </div>
+
+        {/* Contact & Socials */}
+        <div className="bg-white rounded-3xl p-6 shadow-sm border border-slate-100 mb-6">
+          <h2 className="font-heading font-bold text-lg mb-4">Contact & Socials</h2>
+          <div className="grid grid-cols-1 gap-y-4">
+            <a href="mailto:alex@example.com" className="flex items-center gap-3 text-slate-600 hover:text-primary transition-colors cursor-pointer p-2 -ml-2 rounded-lg hover:bg-slate-50">
+              <div className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-slate-500">
+                <Mail className="w-5 h-5" />
+              </div>
+              <div>
+                <p className="text-xs text-slate-400 font-medium uppercase tracking-wider">Email</p>
+                <span className="text-sm font-semibold text-slate-700">alex@example.com</span>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/alex-example" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-slate-600 hover:text-blue-600 transition-colors cursor-pointer p-2 -ml-2 rounded-lg hover:bg-slate-50">
+              <div className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-slate-500">
+                <Linkedin className="w-5 h-5" />
+              </div>
+              <div>
+                <p className="text-xs text-slate-400 font-medium uppercase tracking-wider">LinkedIn</p>
+                <span className="text-sm font-semibold text-slate-700">linkedin.com/in/alex-example</span>
+              </div>
+            </a>
           </div>
         </div>
 
