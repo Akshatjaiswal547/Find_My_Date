@@ -1,5 +1,3 @@
----
-
 # 💖 Find My Date – AI Powered Dating Platform
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge\&logo=next.js)
