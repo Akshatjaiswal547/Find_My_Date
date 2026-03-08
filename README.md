@@ -1,5 +1,3 @@
-Here is your **final cleaned `README.md`** with **Demo, GitHub repo, and Portfolio sections removed**, and still including **How to Run**.
-
 ---
 
 # 💖 Find My Date – AI Powered Dating Platform
