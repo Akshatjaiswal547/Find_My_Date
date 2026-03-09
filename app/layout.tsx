@@ -4,6 +4,7 @@ import Script from 'next/script';
 import './globals.css'; // Global styles
 import Navigation from '@/components/Navigation';
 import MainLayout from '@/components/MainLayout';
+import { Analytics } from '@vercel/analytics/next';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -35,6 +36,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
         <MainLayout>
           {children}
         </MainLayout>
+        <Analytics />
       </body>
     </html>
   );
